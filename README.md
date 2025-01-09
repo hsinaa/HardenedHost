@@ -56,8 +56,12 @@ The entry point for the hardening process, providing a user-friendly interface f
 2. Navigate to the project directory:  
    ```bash
    cd HardenedHost
-   ```  
-3. Run the main script with elevated privileges:  
+   ```
+3. Add executable permission:  
+   ```bash
+   sudo chmod u+x ./main.sh
+   ``` 
+4. Run the main script with elevated privileges:  
    ```bash
    sudo ./main.sh
    ```  
