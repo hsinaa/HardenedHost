@@ -1,4 +1,20 @@
+### **Table of Contents**
 
+1. [Overview](#overview)  
+2. [Objectives](#objectives)  
+3. [Key Features](#key-features)  
+4. [Project Structure](#project-structure)  
+   - [Main Script (`main.sh`)](#main-script-mainsh)  
+   - [Modules](#modules)  
+     1. [System Update (`update_system`)](#system-update-updatesystem)  
+     2. [Static Hardening (`show_static_modules`)](#static-hardening-show_static_modules)  
+     3. [Dynamic Hardening (`show_dynamic_modules`)](#dynamic-hardening-show_dynamic_modules)  
+     4. [System Status Check (`check_system_status`)](#system-status-check-check_system_status)  
+5. [Installation](#installation)  
+6. [Usage](#usage)  
+7. [Acknowledgments](#acknowledgments)
+
+   
 ## **Overview**  
 Welcome to *Hardening as Code for Linux*, a project developed collaboratively with **Chaima Bissi** and under the supervision of **Pr. Omar Achbarou**. Inspired by the best practices of **ANSSI (Agence nationale de la sécurité des systèmes d'information)**, HardenedHost is a collection of scripts aimed at improving the security of various Linux system components.  
 
